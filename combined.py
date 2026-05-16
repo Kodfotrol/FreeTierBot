@@ -15,7 +15,7 @@ load_dotenv()
 
 # ---------- НАСТРОЙКИ ----------
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8761774819:AAFYhj0Uuo-wyfnLgiCZVZfc21xDCIYE8e8")
-OPENROUTER_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_KEY = os.getenv("OPENROUTER_API_KEY", "sk-or-v1-запасной_ключ_если_хотите")
 API_URL = f"https://api.telegram.org/bot{TOKEN}/"
 PROJECTS_DIR = Path(__file__).parent / "projects"
 PROJECTS_DIR.mkdir(exist_ok=True)
