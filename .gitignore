@@ -4,3 +4,4 @@ venv/
 projects/
 bot.log
 ai_factory.db
+.aider*
