@@ -1,0 +1,6 @@
+.env
+__pycache__/
+venv/
+projects/
+bot.log
+ai_factory.db
